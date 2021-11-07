@@ -15,7 +15,8 @@ def homepage(request):
 		if form.is_valid():
 			clean_form = form.cleaned_data
 			# send the email to the recipent
-			send_mail('Terratecc Alert: ' + clean_form['subject'], clean_form['name'] + ' - ' + clean_form['email'] + '\n' + clean_form['budget'] + '\n' +  clean_form['message'], settings.DEFAULT_FROM_EMAIL, ['andre.luque.c@gmail.com'])
+			send_mail('Terratecc Alert: ' + clean_form['subject'], clean_form['name'] + ' - ' + clean_form['email'] + '\n' + clean_form['budget'] + '\n' +  clean_form['message'], settings.DEFAULT_FROM_EMAIL, ['info@terratecc.com'])
+			send_mail('Terratecc', 'Your message has been sent!' + '\n' + 'Our team will get back to you as soon as possible.' + '\n' + '\n' + 'Cheers,' + '\n' + 'The Terratecc Team', settings.DEFAULT_FROM_EMAIL, [clean_form['email']])
 			return redirect('/sent')
 
 	template = loader.get_template('main/index.html')
