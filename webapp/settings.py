@@ -138,7 +138,7 @@ EMAIL_HOST = 'smtp.gmail.com'
 
 DEFAULT_FROM_EMAIL = 'andreluque@terratecc.com'
 EMAIL_HOST_USER = 'andreluque@terratecc.com'
-EMAIL_HOST_PASSWORD = 'p3t5e7a9'
+EMAIL_HOST_PASSWORD = 'p31446t5e7a9'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 

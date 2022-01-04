@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,400i,500");
+
+body{
+        padding: 40px;
+}
+[data-custom-class='body'], [data-custom-class='body'] * {
+          background: transparent !important;
+        }
+[data-custom-class='title'], [data-custom-class='title'] * {
+          font-family: Rubik !important;
+font-size: 46px !important;
+color: #000000 !important;
+        }
+[data-custom-class='subtitle'], [data-custom-class='subtitle'] * {
+          font-family: Rubik !important;
+color: #595959 !important;
+font-size: 20px !important;
+        }
+[data-custom-class='heading_1'], [data-custom-class='heading_1'] * {
+          font-family: Rubik !important;
+font-size: 32px !important;
+color: #000000 !important;
+        }
+[data-custom-class='heading_2'], [data-custom-class='heading_2'] * {
+          font-family: Rubik !important;
+font-size: 26px !important;
+color: #000000 !important;
+        }
+[data-custom-class='body_text'], [data-custom-class='body_text'] * {
+          color: #595959 !important;
+font-size: 17px !important;
+font-family: Rubik !important;
+        }
+[data-custom-class='link'], [data-custom-class='link'] * {
+          color: #3030F1 !important;
+font-size: 15px !important;
+font-family: Rubik !important;
+word-break: break-word !important;
+}
+ul {
+  list-style-type: square;
+}
+ul > li > ul {
+  list-style-type: circle;
+}
+ul > li > ul > li > ul {
+  list-style-type: square;
+}
+ol li {
+  font-family: Rubik ;
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom:60px;
+}
+
+.text{
+  margin-left: 10px;
+  font-size: 60px !important;
+  font-family: Rubik !important;
+  color: #1362b1;
+}
+a{
+   text-decoration: none;
+   color: #1362b1;
+}

@@ -32,4 +32,9 @@ def messageSent(request):
 	template = loader.get_template('main/message_sent.html')
 	return HttpResponse(template.render(context, request))
 
+def privacy(request):
+	context = {}
+	template = loader.get_template('main/privacy.html')
+	return HttpResponse(template.render(context, request))
+
 

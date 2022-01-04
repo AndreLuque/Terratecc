@@ -5,5 +5,6 @@ from . import views
 urlpatterns = [
 		path('', views.homepage, name = "homepage"),
 		path('sent', views.messageSent, name = "message sent"),
-		path(r'<slug:slug>', views.error404, name = "error404"),
+		path('privacy-policy', views.privacy, name="privacy policy"),
+		path(r'<slug:slug>', views.error404, name = "error404")
 ]	
