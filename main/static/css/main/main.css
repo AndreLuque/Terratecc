@@ -2497,3 +2497,34 @@ button:focus {
 
 
 /*# sourceMappingURL=main.css.map */
+
+/********* Video ***************/
+
+#video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+  }
+  .video-section {
+    /* background: red; */
+    position: relative;
+    z-index: 99999;
+    height: 700px;
+    margin-top: 0px;
+}
+  
+  video {
+    width: 100%;
+    height: 100%;
+  }
+  .touch video {
+    display: none;
+  }
+
+  
+/********* Video ***************/
